@@ -18,9 +18,9 @@ namespace sc001CurrencyConverter.Droid
 
             // Get our button from the layout resource,
             // and attach an event to it
-            Button button = FindViewById<Button>(Resource.Id.myButton);
-            txtDollar value = FindViewById<EditText>(Resources.Id.txtDollar);
-            lblResults result = FindViewByID<TextView>(Resource.Id.lblResults);
+            Button button = FindViewById<Button>(Resource.Id.button);
+            var txtDollar = FindViewById<EditText>(Resource.Id.txtDollars);
+            var lblResults = FindViewById<TextView>(Resource.Id.lblResults);
 
             button.Click += delegate 
             { 
